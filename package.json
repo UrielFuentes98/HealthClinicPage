@@ -1,0 +1,24 @@
+{
+  "name": "HealthClinicPage",
+  "version": "1.0.0",
+  "description": "Website for a Health Clinic in Monterrey, Mexico.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UrielFuentes98/HealthClinicPage.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UrielFuentes98/HealthClinicPage/issues"
+  },
+  "homepage": "https://github.com/UrielFuentes98/HealthClinicPage#readme",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
