@@ -3,56 +3,101 @@
 <html>
     <head>
         <title>Instituto de Desarrollo Humano.</title>
+        <link rel="stylesheet" href="css/main-styles.css">
     </head>
     <body>
         <header>
             <h1 id="main-title">Instituto de Desarrollo Humano.</h1>
-                <ul class="nav-list">
-                   <li>Servicios</li> 
-                   <li>Resultados</li>
-                   <li>Contacto</li>
+                <div class="nav-list-main">
+                   <a class="top-anchor" href="#servicios">Servicios</a> 
+                   <a href="#resultados">Resultados</a>
+                   <a href="#contacto">Contacto</a>
+                   <a href="#citas">Citas</a>
                 </ul>
         </header>
         <main>
-            <blockquote>
+            <q class="main-quote">
                 El hambre de búsqueda incansable de conocimiento, lleva al hombre a un 
                 desarrollo integral y equilibrado.
-            </blockquote>
-            <section>
+            </q>
+            <section id="servicios">
                 <h2>Servicios</h2>
-                <ul class="images-grid">
-                   <li class="image-item">Electroacupuntura</li> 
-                   <li class="image-item">Electrestimulación muscular</li> 
-                   <li class="image-item">Acupuntura</li> 
-                   <li class="image-item">Manejo de columna vertebral</li> 
-                   <li class="image-item">Complementos nutricionales</li> 
-                   <li class="image-item">Hipnosis</li> 
+                <div class="images-grid">
+                    <div class = "grid-item">
+                        <img src="img/elec-acupuntura.jpg" alt="Electroacupuntura" class="image-item" >
+                        <span class="text-item">Electroacupuntura</span>
+                        <span class="text-item-p-ser">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                    </div>
+                    <div class = "grid-item">
+                        <img class="image-item" src="img/elec-estim-muscular.jpg" alt="Electrestimulación muscular">
+                        <span class="text-item">Electrestimulación muscular</span>
+                        <span class="text-item-p-ser">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                    </div>
+                    <div class = "grid-item">
+                        <img class="image-item" src="img/acupuntura.jpeg" alt="Acupuntura">
+                        <span class="text-item">Acupuntura</span>
+                        <span class="text-item-p-ser">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                    </div>
+                    <div class = "grid-item">
+                        <img class="image-item" src="img/columna.jpg" alt="Manejo de columna vertebral">
+                        <span class="text-item">Manejo de columna vertebral</span>
+                        <span class="text-item-p-ser">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                    </div>
+                    <div class = "grid-item">
+                        <img class="image-item" src="img/comp-nutricion.jpg" alt="Complementos nutricionales">
+                        <span class="text-item">Complementos nutricionales</span>
+                        <span class="text-item-p-ser">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                    </div>
+                    <div class = "grid-item">
+                        <img class="image-item" src="img/hipnosis.jpg" alt="Hipnosis">
+                        <span class="text-item">Hipnosis</span>
+                        <span class="text-item-p-ser">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                    </div>
+                    <div class = "grid-item">
+                        <img class="image-item" src="img/quiropraxia.jpg" alt="Otras tecnicas">
+                        <span class="text-item">Otras tecnicas</span>
+                        <span class="text-item-p-ser">Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+                            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </span>
+                    </div>
+                    <!--
                    <li class="image-item">Otras tecnicas</li> 
-                </ul> 
+                    -->
+                </div> 
             </section>
-            <section>
+            <section id="resultados">
                 <h2>Resultados</h2>
-                <ul>
-                   <li>Mejor conocimiento de sí mismo</li> 
-                   <li>Integración de la persona</li> 
-                   <li>Auto motivación</li> 
-                   <li>Liberación de tensiones y relajación</li> 
-                   <li>Exito en los proyectos de vida a desarrollar</li>
-                   <li>Dinamismo</li>
+                <ul class="resul-container">
+                   <li class="resul-item">Mejor conocimiento de sí mismo</li> 
+                   <li class="resul-item">Integración de la persona</li> 
+                   <li class="resul-item">Auto motivación</li> 
+                   <li class="resul-item">Liberación de tensiones y relajación</li> 
+                   <li class="resul-item">Exito en los proyectos de vida a desarrollar</li>
+                   <li class="resul-item">Dinamismo</li>
                 </ul>
             </section>
-            <section>
+            <section id="contacto">
                 <h2>Contacto</h2>
-                <h3>Información</h3>
-                <p>Dr. Bernardo Fuentes</p>
-                <p>Tel. 81-83-58-34-25</p>
+                <p class="contact-text">Dr. Bernardo Fuentes</p>
+                <p class="contact-text">Tel. 81-83-58-34-25</p>
+                <h3>Dirección.</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3596.6095411108436!2d-100.30365508500148!3d25.651081483687108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bfb5a2a01121%3A0x9a0ea595bc3b076c!2sJuana%20de%20Asbaje%20y%20Ram%C3%ADrez%20205%2C%20Roma%2C%2064700%20Monterrey%2C%20N.L.!5e0!3m2!1ses-419!2smx!4v1609815971229!5m2!1ses-419!2smx" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            </section>
+            <section id="citas">
+                <h2>Agenda una cita.</h2>
             </section>
         </main>
         <footer>
-            <ul class="nav-list">
-                <li>Servicios</li> 
-                <li>Resultados</li>
-                <li>Contacto</li>
+            <ul class="nav-list-footer">
+                <li><a href="#servicios">Servicios</a></li> 
+                <li><a href="#resultados">Resultados</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                 <li><a href="#citas">Citas</a></li>
             </ul>
         </footer>
     </body>
